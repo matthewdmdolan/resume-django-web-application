@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'home.css' %}">
+  <link rel="stylesheet" href="{% static 'home.js' %}">
+</head>
+<body>
+<div class="resume" id="resume">
+  <div class="base">
+    <div class="profile">
+      <div class="photo">
+        <!--<img src="" /> -->
+        <i class="fas fa-rocket"></i>
+      </div><div class="info">
+        <h1 class="name">Matt Dolan</h1>
+        <h1 class="name">CV</h1>
+        &nbsp;
+        <h1 class="about">Tip: hover over elements! </h1></div>
+    </div>
+    <div class="about">
+      <div class="Projects"
+      <div class="email"><a href="{% url 'intro' %}"><i class="fas fa-envelope"></i><span>Home</a> </div>
+       &nbsp;
+      <div class="email"><a href="{% url 'home' %}"><i class="fas fa-envelope"></i><span>CV</span></a> </div>
+      &nbsp;
+      <div class="email"><a href="{% url 'dashboards' %}"><i class="fas fa-envelope"></i><span>Projects</span></a> </div>
+      &nbsp;
+    </div>
+       &nbsp&nbsp;
+       &nbsp;
+       &nbsp;
+       &nbsp;
+       &nbsp;
+       &nbsp;
+       &nbsp;
+       &nbsp;
+    <div class="name">
+      <div class="name"><span>Contact: </span> </div>
+       &nbsp;
+      <div class="email"><a href="mailto:matthewdmdolan@gmail.com"><i class="fas fa-envelope"></i><span><u>Email</u></span></a> </div>
+      &nbsp;
+      <div class="email"><a href="https://www.linkedin.com/in/matthew-dolan-coventry/"><i class="fas fa-envelope"></i><span><u>Linkedin</u></span></a> </div>
+    </div>
+    <div class="follow">
+      <div class="box">
+      </div>
+    </div>
+  </div>
+  <div class="func">
+    <div class="work">
+      <h3><i class="fa fa-briefcase"></i>Experience</h3>
+      <ul>
+        <li><span>Data Scientist</span><small>Payment Service Regulator</small><small>July 2023 - Now</small></li>
+        <li><span>MI Analyst</span><small>The Pensions Regulator</small><small>Dec 2021 - July 2023</small></li>
+        <li><span>BI Consultant</span><small>Serios Group</small><small>March 2021 - Nov 2021</small></li>
+      </ul>
+    </div>
+    <div class="edu">
+      <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+      <ul>
+        <li><span>MSc.<br>Big Data and Digital Futures</span><small>University of Warwick</small><small>Sept 2019 - Sept 2020</small></li>
+        <li><span>BSc</span><small>Social Policy</small><small>London School of Economics</small><small>Sept 2012 - July 2015</small></li>
+      </ul>
+    </div>
+    <div class="skills-prog">
+      <h3><i class="fas fa-code"></i>Programming Skills</h3>
+      <ul>
+        <li data-percent="80"><span>MS SQL</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="70"><span>Python</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="60"><span>R</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="40"><span>HTML5</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="40"><span>CSS/SCSS</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+        <li data-percent="20"><span>JavaScript</span>
+          <div class="skills-bar">
+            <div class="bar"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="skills-soft">
+      <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
+      <ul>
+        <li data-percent="90">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Tableau</span><small></small>
+        </li>
+        <li data-percent="75">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Power BI</span><small></small>
+        </li>
+        <li data-percent="85">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>InDesign</span><small></small>
+        </li>
+        <li data-percent="65">
+          <svg viewbox="0 0 100 100">
+            <circle cx="50" cy="50" r="45"></circle>
+            <circle class="cbar" cx="50" cy="50" r="45"></circle>
+          </svg><span>Dreamweaver</span><small></small>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="{% static 'home.js' %}"></script>
+</body>
+</html>
+
