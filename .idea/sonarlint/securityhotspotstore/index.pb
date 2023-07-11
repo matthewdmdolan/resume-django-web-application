@@ -35,15 +35,5 @@ J
 personal_portfolio/urls.py,e/d/ed1d8a1ac9f9acc1de93a9bd9faab8bf26e06bdc
 Q
 !personal_portfolio/static/home.js,7/0/7040383a10f5ff7b132a2447b77d5532da55c203
-V
-&personal_portfolio/templates/home.html,6/e/6e644a6a8fdf15078977251c95b0f971d19291f9
 X
 (personal_portfolio/static/Dashboards.css,7/4/74a7d997b382c7ddfbbcab46d9c251e3124955ac
-\
-,personal_portfolio/templates/dashboards.html,1/5/155d4a695879454af756d6b1fb74b2e7419f700c
-R
-"personal_portfolio/static/home.css,2/6/26ecf6cfa2dd4dc72188678c70c4d73d0978fbd3
-W
-'personal_portfolio/templates/Intro.html,f/1/f162a7f640ae982301b71387a10c60aa67da2448
-S
-#personal_portfolio/static/intro.css,c/1/c1d4d7d79105ff9d8cad9538c3f73b0717482180
