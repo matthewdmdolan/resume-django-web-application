@@ -37,3 +37,5 @@ Q
 !personal_portfolio/static/home.js,7/0/7040383a10f5ff7b132a2447b77d5532da55c203
 X
 (personal_portfolio/static/Dashboards.css,7/4/74a7d997b382c7ddfbbcab46d9c251e3124955ac
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
